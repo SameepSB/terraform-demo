@@ -1,9 +1,9 @@
-variable "ami" {}
-variable "region" {}
-variable "instance_type" {}
-variable "access_key" {}
-variable "secret_key" {}
-variable "subnet_id" {}
+#variable "ami" {}
+#variable "region" {}
+#variable "instance_type" {}
+#variable "access_key" {}
+#variable "secret_key" {}
+#variable "subnet_id" {}
 
 resource "aws_instance" "terraform-cloud-demo-server" {
 	ami  = var.ami
