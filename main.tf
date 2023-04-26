@@ -8,7 +8,7 @@ variable "subnet_id" {}
 resource "aws_instance" "terraform-cloud-demo-server" {
 	ami  = var.ami
 	instance_type = var.instance_type
-	subnet_id =  var.sbunet_id
+	subnet_id =  var.subnet_id
 	tags ={
   		Name = "terraform.cloud-demo-server"
 	}	
